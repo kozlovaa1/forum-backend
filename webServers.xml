@@ -17,6 +17,14 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="4e45cd5c-c8ea-484f-91f5-95570cd0e80a" name="a-kozlov-dev.h1n.ru" url="http://a-kozlov-dev.h1n.ru">
+        <fileTransfer host="s1.hostiman.ru" port="21" rootFolder="/www/a-kozlov-dev.h1n.ru">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
