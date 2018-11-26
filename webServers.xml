@@ -1,6 +1,14 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="0eaec303-c006-4b0a-8085-3a48f6817fba" name="vds Laravel" url="http://mysite.vds">
+        <fileTransfer host="194.1.237.218" port="22" rootFolder="/data/mysite.local" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions controlEncoding="UTF-8" dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
       <webServer id="85b98795-3b6a-4412-8c02-6d149bdccc8b" name="a-kozlov-shop.h1n.ru" url="http://a-kozlov-demo.h1n.ru">
         <fileTransfer host="s1.hostiman.ru" port="21" rootFolder="/www/a-kozlov-shop.h1n.ru">
           <advancedOptions>
